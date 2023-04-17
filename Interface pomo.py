@@ -54,7 +54,7 @@ def start() :
                 xb += 1
                 men5lab.update_idletasks()
                 sala.after(100)
-            #winsound.PlaySound('alarm-clock-01.wav', winsound.SND_FILENAME)
+            winsound.PlaySound('alarm-clock-01.wav', winsound.SND_FILENAME)
             men5butao.destroy()
             salabutcont.pack(side=LEFT)
             salabutpara.pack(side=RIGHT)
@@ -98,7 +98,7 @@ def start() :
         men5butao['state'] = 'active'
         barra['value'] = 0 
         pontos += 1
-        #winsound.PlaySound('alarm-clock-01.wav', winsound.SND_FILENAME)
+        winsound.PlaySound('alarm-clock-01.wav', winsound.SND_FILENAME)
         menu5.withdraw()
         salaesp()
 
